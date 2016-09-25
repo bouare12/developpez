@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	display: block;
+
+	.gabarit-recherche{
+		float: right;
+		width: 250px;
+
+		form{
+			display: block;
+			margin-top: 0em;
+
+			div{
+				display: block;
+
+				.txt{
+					width: 150px;
+					padding: 1px 0px;
+					background-color: white;
+					-webkit-appearance: textfield;
+
+				}
+				.search{
+					font-size: 8pt;
+					color: #577F99;
+					background: #ACBFCB;
+					border: 1px solid #5a7f99;
+					position: relative;
+					top: -2px;
+					width: 80px;
+				}
+			}
+		}
+	}
+
+	.gaarit-suprieur{
+		width: 700px;
+		height: 22px;
+		margin: 0 auto;
+		padding: 0 0 4px 10px;
+		font-weight: bold;
+		background-color: #c4d3db;
+		border: 0 0 15px 15px;
+		background: linear-gradient (to bottom, #c4d3db 0%, #99b2c2 100%);
+
+		nav{
+
+			ul{
+				padding: 0;
+				list-style-type: none;
+				li{
+					display: inline-block;
+					margin-right: 5px;
+
+					a{
+						font-size: 15px;
+						text-decoration: none;
+
+					}
+				}
+			}
+		}
+	}
+}
