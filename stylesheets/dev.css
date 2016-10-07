@@ -65,3 +65,73 @@ header .gaarit-suprieur nav ul li a {
   font-size: 15px;
   text-decoration: none;
 }
+
+/* line 70, ../sass/dev.scss */
+.contenair {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 77, ../sass/dev.scss */
+.contenair #menu {
+  margin-top: 40px;
+  margin-left: 200px;
+}
+/* line 80, ../sass/dev.scss */
+.contenair #menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+/* line 86, ../sass/dev.scss */
+.contenair #menu ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 92, ../sass/dev.scss */
+.contenair #menu ul li a {
+  display: block;
+  font: normal bold 14px tahoma;
+  background: #3f4040;
+  min-width: 100px;
+  text-align: center;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  color: #FFF;
+  border-top: 4px solid #FFF;
+  border-bottom: 4px solid #00B4FF;
+  transition: background 500ms,color 500ms,border-color 500ms;
+}
+/* line 106, ../sass/dev.scss */
+.contenair #menu ul li a:hover {
+  background: #666;
+  border-top-color: #00B4FF;
+  color: #00B4FF;
+}
+/* line 112, ../sass/dev.scss */
+.contenair #menu ul li ul {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  display: none;
+}
+/* line 120, ../sass/dev.scss */
+.contenair #menu ul li ul li a {
+  background: #666;
+  display: block;
+  font: normal normal 12px tahoma;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: 1px solid #FFF;
+  min-width: 130px;
+}
+/* line 131, ../sass/dev.scss */
+.contenair #menu ul li ul li a:hover {
+  background: #777;
+}
